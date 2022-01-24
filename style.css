@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Oswald:wght@200;700&display=swap');
+
+body{
+    background-image: linear-gradient(180deg, #936CF6, #8596D6, #72C5EB, #8CD4C7, #6CF698);
+    -webkit-text-size-adjust: none;
+}
+
+h1{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 5em;
+}
+
+#principal{
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+
+.logo{
+    height: 160px;
+    width:190px;
+    margin: auto;
+}
+
+.principal{
+    text-align: center;
+    color: rgb(238, 238, 238);
+    font: italic 200 3.5em 'Oswald', sans-serif;
+    margin: auto auto 50px auto;
+}
+
+.d1{
+    text-align: right;
+}
+
+.d2{
+    text-align: left;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    padding: 1px;
+}
+
+img.alunos{
+    display: block;
+    border-radius: 100%;
+    width: 16em;
+    padding: 0.65em;
+    border: 1px solid rgb(92, 89, 89);
+    margin: auto;
+
+}
+
+section.imagens{
+    display: inline-block;
+    margin: auto;
+}
+
+span{
+    margin: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+div{
+    display: block;
+    box-sizing: inherit;
+}
