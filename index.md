@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+# 3 Máster
 
 You can use the [editor on GitHub](https://github.com/YagoMaia/3master/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
