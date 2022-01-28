@@ -6,6 +6,20 @@ body{
     -webkit-text-size-adjust: none;
 }
 
+header > p{
+    text-align: center;
+    color: rgb(238, 238, 238);
+    font: italic 200 2.5em 'Oswald', sans-serif;
+    margin: auto auto 50px auto;
+    max-width: 600px;
+}
+
+header > h1{
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
 h1{
     font-family: "Oswald", sans-serif;
     text-align: center;
@@ -13,40 +27,61 @@ h1{
     font-size: 5em;
 }
 
-#principal{
+h2{
+    font-size: 3em;
     text-align: center;
-    color: white;
-    margin: auto;
 }
 
-
 .logo{
+    display: block;
     height: 160px;
     width:190px;
     margin: auto;
 }
 
-.principal{
+.titulo{
     text-align: center;
-    color: rgb(238, 238, 238);
-    font: italic 200 3.5em 'Oswald', sans-serif;
-    margin: auto auto 50px auto;
+    font-size: 2em;
 }
 
-.d1{
-    text-align: right;
+.explicacao{
+    text-align: justify;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1600px;
 }
 
-.d2{
-    text-align: left;
+.grupo > img{
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    margin: 0px auto 10px auto;
+
+}
+
+.video{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.video > iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 main{
     background-color: white;
     border-radius: 10px;
-    width: 90%;
     padding: 10px;
     margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.39);
 }
 
 footer{
@@ -57,25 +92,9 @@ footer{
 img.alunos{
     display: block;
     border-radius: 100%;
-    width: 16em;
+    width: 50%;
     padding: 0.65em;
     border: 1px solid rgb(92, 89, 89);
     margin: auto;
 
-}
-
-section.imagens{
-    display: inline-block;
-    margin: auto;
-}
-
-span{
-    margin: 0;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-div{
-    display: block;
-    box-sizing: inherit;
 }
